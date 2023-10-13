@@ -9,19 +9,31 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/server": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.13",
+    "@mui/material": "^5.14.13",
+    "graphql-ws": "^5.14.1",
+    "luxon": "^3.4.3",
+    "next": "13.5.4",
     "react": "^18",
     "react-dom": "^18",
-    "next": "13.5.4"
+    "react-relay": "^15.0.0",
+    "relay-runtime": "^15.0.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@types/luxon": "^3.3.2",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/react-relay": "^14.1.6",
     "autoprefixer": "^10",
-    "postcss": "^8",
-    "tailwindcss": "^3",
     "eslint": "^8",
-    "eslint-config-next": "13.5.4"
+    "eslint-config-next": "13.5.4",
+    "postcss": "^8",
+    "relay-compiler": "^15.0.0",
+    "tailwindcss": "^3",
+    "typescript": "^5"
   }
 }
